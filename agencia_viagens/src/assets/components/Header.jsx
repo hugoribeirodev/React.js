@@ -4,7 +4,7 @@ import styles from '../css/Header.module.css'
 
 function Header(){
 
-    Return(
+    return(
 
         <header className={styles.content}>
             <img src={Logo} alt="Logo" className={styles.logo}/>
