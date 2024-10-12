@@ -1,0 +1,103 @@
+.conteudohome{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    background-color: rgb(247, 181, 134);
+    width: 90%;
+    height: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.vermelho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+    background-color: red;
+    width: 90%;
+    height: 300px;
+}
+
+.Rosa{
+    margin: 40px;
+    background-color:rgb(247, 181, 134);
+    width: 40%;
+    padding: 10px 10px;
+    height: 250px;
+}
+
+.Rosa2{
+    margin: 40px;
+    background-color:rgb(247, 181, 134);
+    width: 40%;
+    padding: 10px 10px;
+    height: 250px;
+}
+
+.azulclaro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+    background-color: aqua;
+    width: 90%;
+    height: 400px;
+}
+
+.branco{
+    background-color: white;
+    text-align: center;
+    width: 20%;
+    height: 300px;
+    margin: 40px;
+    padding: 10px 0px ;
+    border-radius: 10px;
+}
+
+.laranja{
+    background-color: orange;
+    width: 90%;
+    height: 300px;
+
+    display: flex;
+    margin: auto;
+}
+
+.tagp{
+    padding: 10px 10px;
+}
+
+.amarelo{
+    background-color: yellow;
+    width: 90%;
+    height: 400px;
+
+    display: flex;
+    margin: auto;
+}
+
+.azuldark{
+    background-color: rgb(2, 2, 103);
+    margin: 10px 80px;
+    width: 55%;
+    padding: 10px 0;
+    height: 350px;
+}
+
+.verde{
+    background-color: rgb(5, 147, 133);
+    margin: 10px 80px;
+    width: 55%;
+    padding: 10px 0;
+    height: 350px;
+}
+

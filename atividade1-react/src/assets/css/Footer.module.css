@@ -1,0 +1,25 @@
+.footer{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    background-color: rgb(247, 181, 134);
+    width: 90%;
+    height: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.blackk{
+    background-color: black;
+    width: 90%;
+    height: 100px;
+
+    display: flex;
+    margin: auto;
+}

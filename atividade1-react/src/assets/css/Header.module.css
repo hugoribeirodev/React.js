@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: lime;
+    width: 90%;
+    height: 100px;
+}
+
+.limee{
+    font-size: 15px;
+    padding: 0 10px;
+}
