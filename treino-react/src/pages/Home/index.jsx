@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -12,7 +13,7 @@ function Home() {
                         <span>Hugo Ribeiro</span> <br />
                         Dev Full Stack
                     </p>
-                    <button className="btn btn-purple">Sobre mim</button>
+                    <Link to="/Sobre" className="btn btn-purple">Sobre mim</Link>
                 </div>
 
                 <figure>
