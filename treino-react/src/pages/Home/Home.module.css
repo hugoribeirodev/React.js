@@ -1,0 +1,47 @@
+/* CSS da Home page */
+.home{
+    width: 100%;
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home img{
+    width: 80%;
+    height: 500px;
+}
+
+.home p{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.home span {
+    color: var(--terceary);
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn_purple{
+    background-color: var(--terceary);
+    color: var(--white);
+}
+
+.btn_purple:hover{
+    background-color: var(--primary);
+}
