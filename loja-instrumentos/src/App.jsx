@@ -1,15 +1,12 @@
 
 import './App.css'
-import Footer from './assets/Components/Footer'
-import Header from './assets/Components/Header'
+import Header from './assets/Components/Header/Header'
+
 
 function App() {
-  
-
   return (
     <>
       <Header />
-      <Footer />
     </>
   )
 }
