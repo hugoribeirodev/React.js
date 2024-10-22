@@ -1,0 +1,36 @@
+.sectionfooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fundopreto{
+    background-color: black;
+    width: 90%;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fundopreto h2 {
+    margin: 0; /* Remove a margem do h2 */
+}
+
+.fundopreto p {
+    margin: 0; /* Remove a margem dos parágrafos */
+}
+
+.redes{
+    display: flex; /* Define o contêiner como flex */
+    justify-content: center; /* Centraliza as imagens */
+    
+}
+
+.redes img{
+    width: 50px; /* Ajuste o tamanho das imagens conforme necessário */
+    margin: 20px 5px 0 0; 
+}

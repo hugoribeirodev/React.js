@@ -1,0 +1,53 @@
+.sectionhome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line{
+    background-color: rgb(255, 98, 87);
+    width: 90%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redd{
+    background-color: red;
+    width: 90%;
+    height: 400px;
+    display: flex;
+}
+
+.rose{
+    background-color: rosybrown;
+    color: white;
+    width: 40%;
+    height: 280px;
+    padding: 20px;
+    padding-top: 40px;
+    margin: 30px;
+    margin-left: 60px;
+}
+
+.rose h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rose p{
+    font-size: 15px;
+}
+
+.imagemloja{
+    background-image: url(../img/loja.jpg);
+    width: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    padding: 20px;
+    padding-top: 40px;
+    margin: 30px;
+}

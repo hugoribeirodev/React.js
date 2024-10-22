@@ -1,0 +1,12 @@
+/* index.css ou App.css */
+body {
+  margin: 0; /* Remove margens padrão do body */
+  padding: 0; /* Remove padding padrão do body */
+  font-family: Arial, sans-serif; /* Altere conforme necessário */
+  background-image: url('../src/assets/img/guitarras_background.jpg'); /* Coloque aqui o caminho para a sua imagem de fundo */
+  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  background-repeat: no-repeat; /* Não repete a imagem */
+  background-position: center; /* Centraliza a imagem */
+  min-height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
+  color: #333; /* Cor padrão do texto, altere conforme necessário */
+}

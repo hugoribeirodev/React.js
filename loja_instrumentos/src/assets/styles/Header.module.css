@@ -1,0 +1,56 @@
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/guitarras_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 87%;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 100px;
+    right: 110px;
+    background-color: white;
+    align-items: center;
+    height: 40px;
+    padding: 5px;
+    
+}
+
+.navList li {
+    margin: 0 17px;
+}
+
+.navList a {
+    color: red;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.navList a:hover {
+    color: #21a0f6;
+}
