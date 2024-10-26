@@ -1,0 +1,40 @@
+.sectionloc{
+    background-color: brown;
+    width: 90%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.divpailoc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 30px 30px 30px;
+}
+
+.divloc{
+    margin-right: 30px;
+}
+
+.divcontent{
+    background-color: rgb(223, 114, 114);
+    width: 96%;
+    height: 360px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    color: white;
+}
+
+.divcontent h1{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.divcontent p{
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 90%;
+}

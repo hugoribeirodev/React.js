@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css'
 function Home() {
     return(
         <section className={styles.sectionhome}>
-            <div className={styles.line}></div>
             <div className={styles.redd}>
                 <div className={styles.rose}>
                     <h1>Nossa Loja - Instrumentos Musicais</h1>
