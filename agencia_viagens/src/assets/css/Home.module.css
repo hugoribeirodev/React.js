@@ -1,6 +1,6 @@
 .corpo_home{
     width: 100%;
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -8,13 +8,15 @@
 }
 .imagem_lado{
     width: 40%;
-    height: 500px;
+    height: 300px;
     background-image: url(../imagens/mala.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
 }
 
 .texto_lado{
+    margin-top: 60px;
     width: 45%;
     height: 450px;
     text-align: center;

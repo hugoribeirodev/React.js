@@ -1,13 +1,14 @@
 
 import styles from '../css/Home.module.css'
+
 function Home(){
 
     return(
-        <section classNam={styles.corpo_home}>
+        <section className={styles.corpo_home}>
             <div className={styles.imagem_lado}></div>
             <div className={styles.texto_lado}>
                 <h1> Encontre aqui a viagem dos seus sonhos!!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum non tempora molestias fugit, recusandae inventore commodi corporis eius hic obcaecati! Saepe fugiat cupiditate enim illo obcaecati hic exercitationem, magnam aliquam.</p>
+                <p>Na nossa agência de viagens, transformamos seus desejos em realidade. Seja uma escapada romântica, uma aventura emocionante ou um relaxamento em uma praia paradisíaca, temos o pacote ideal para você. Nossa equipe está pronta para ajudar em cada detalhe, garantindo que sua experiência seja inesquecível. Não espere mais! Entre em contato e comece sua jornada hoje mesmo!</p>
             </div>
         </section>
     )

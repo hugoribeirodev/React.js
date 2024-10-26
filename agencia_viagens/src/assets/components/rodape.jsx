@@ -11,7 +11,7 @@ function Rodape(){
 
     return(
 
-            <footer claaName={styles.corpo}>
+            <footer claaName={styles.footer}>
                 <h3>Siga-nos nas redes sociais</h3>
                 <div className={styles.icones}>
                     <img src={insta} alt="instagram" />
